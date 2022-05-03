@@ -623,6 +623,67 @@
 <wire x1="0.03048125" y1="1.02108125" x2="0.03048125" y2="1.2192" width="0.167640625" layer="25" curve="-320.797854"/>
 <wire x1="0.04571875" y1="1.2192" x2="0.04571875" y2="1.02108125" width="0.167640625" layer="25" curve="-320.797854"/>
 </package>
+<package name="JUMPER-2W-PIN-0.1IN">
+<description>2-way, 0.1" pin header jumper</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="octagon"/>
+<text x="0" y="-2.54" size="1.016" layer="27" font="vector" ratio="10" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="0" y="1.524" size="1.016" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="octagon"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="JUMPER-2W-PTH-2MM">
+<description>2-way, 2mm PTH jumper</description>
+<wire x1="3.25" y1="1.25" x2="3.25" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="3.25" y1="-1.25" x2="-3.25" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="-3.25" y1="-1.25" x2="-3.25" y2="1.25" width="0.2032" layer="21"/>
+<wire x1="-3.25" y1="1.25" x2="3.25" y2="1.25" width="0.2032" layer="21"/>
+<pad name="1" x="-2" y="0" drill="0.9144"/>
+<pad name="2" x="0" y="0" drill="0.9144"/>
+<text x="0" y="1.5" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.5" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="bottom-center">&gt;VALUE</text>
+<pad name="3" x="2" y="0" drill="0.9144"/>
+</package>
+<package name="JUMPER-2W-SMD-NO">
+<description>2-way solder jumper</description>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="1.3136" y1="-1.016" x2="-1.3136" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.3136" y1="1.016" x2="1.5676" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.5676" y1="0.762" x2="-1.3136" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.5676" y1="-0.762" x2="-1.3136" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.3136" y1="-1.016" x2="1.5676" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.5676" y1="-0.762" x2="1.5676" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.5676" y1="-0.762" x2="-1.5676" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.3136" y1="1.016" x2="1.3136" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.9" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.9" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -1202,6 +1263,21 @@
 <text x="9.398" y="2.794" size="1.9304" layer="94">www.bot-thoughts.com</text>
 <text x="9.398" y="0" size="1.778" layer="94">CC-BY-SA</text>
 </symbol>
+<symbol name="JUMPER-2-WAY">
+<description>2-Way Jumper</description>
+<wire x1="1.016" y1="0.635" x2="1.651" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.651" y1="0" x2="1.016" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.016" y1="-0.635" x2="-1.016" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<rectangle x1="-0.635" y1="-1.27" x2="0.635" y2="1.27" layer="94"/>
+<pin name="3" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.381" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LETTER_L" prefix="FRAME">
@@ -1244,6 +1320,44 @@ LETTER landscape</description>
 </technologies>
 </device>
 <device name="-LOGO-SM" package="BTLOGOS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-2-WAY" prefix="JMP">
+<description>&lt;b&gt;2-Way Jumper&lt;/b&gt;</description>
+<gates>
+<gate name="J1" symbol="JUMPER-2-WAY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PTH-0.1IN" package="JUMPER-2W-PIN-0.1IN">
+<connects>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PTH-2MM" package="JUMPER-2W-PTH-2MM">
+<connects>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SOLDER" package="JUMPER-2W-SMD-NO">
+<connects>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1376,6 +1490,7 @@ LETTER landscape</description>
 <part name="GND1" library="bt" deviceset="GND" device=""/>
 <part name="U$1" library="bt" deviceset="BTLOGO" device="-LOGO-SM"/>
 <part name="J3" library="bt_communication" deviceset="6PIN_TARGET" device="_LEFT" value="6PIN SERIAL"/>
+<part name="JMP1" library="bt" deviceset="JUMPER-2-WAY" device="-PTH-0.1IN" value="PWR"/>
 </parts>
 <sheets>
 <sheet>
@@ -1384,53 +1499,65 @@ LETTER landscape</description>
 <text x="231.14" y="17.78" size="3.81" layer="94">R0.1</text>
 </plain>
 <instances>
-<instance part="J2" gate="J1" x="134.62" y="101.6"/>
-<instance part="D1" gate="A" x="114.3" y="104.14" rot="R180"/>
+<instance part="J2" gate="J1" x="152.4" y="91.44"/>
+<instance part="D1" gate="A" x="109.22" y="104.14" rot="R180"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="2.54"/>
-<instance part="GND1" gate="1" x="121.92" y="88.9"/>
+<instance part="GND1" gate="1" x="139.7" y="81.28"/>
 <instance part="U$1" gate="G$1" x="5.08" y="5.08"/>
-<instance part="J3" gate="J1" x="104.14" y="101.6"/>
+<instance part="J3" gate="J1" x="99.06" y="104.14" rot="MR180"/>
+<instance part="JMP1" gate="J1" x="121.92" y="91.44" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$2" class="0">
-<segment>
-<wire x1="109.22" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="106.68" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="J2" gate="J1" pin="DATA"/>
-<wire x1="121.92" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="D1" gate="A" pin="A"/>
-<wire x1="116.84" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
-<junction x="121.92" y="104.14"/>
-<pinref part="J3" gate="J1" pin="CTS"/>
-</segment>
-</net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="VCC"/>
-<wire x1="127" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="J3" gate="J1" pin="TXO"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="D1" gate="A" pin="C"/>
-<wire x1="111.76" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="J3" gate="J1" pin="VCC"/>
+<wire x1="127" y1="91.44" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="JMP1" gate="J1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="GND"/>
-<wire x1="127" y1="99.06" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="99.06" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="121.92" y1="91.44" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
-<junction x="121.92" y="96.52"/>
-<pinref part="J3" gate="J1" pin="DTR"/>
+<wire x1="139.7" y1="83.82" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
+<junction x="139.7" y="88.9"/>
+<pinref part="J3" gate="J1" pin="GND"/>
+<wire x1="104.14" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="96.52" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J3" gate="J1" pin="TXO"/>
+<pinref part="D1" gate="A" pin="C"/>
+<wire x1="106.68" y1="104.14" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DATA" class="0">
+<segment>
+<pinref part="J3" gate="J1" pin="RXI"/>
+<wire x1="104.14" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="106.68" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="D1" gate="A" pin="A"/>
+<wire x1="114.3" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J1" pin="DATA"/>
+<wire x1="144.78" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="93.98" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
+<junction x="114.3" y="104.14"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J3" gate="J1" pin="VCC"/>
+<pinref part="JMP1" gate="J1" pin="2"/>
+<wire x1="104.14" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="101.6" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
