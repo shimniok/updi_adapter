@@ -152,7 +152,7 @@
 <wire x1="0.635" y1="16.256" x2="0" y2="15.621" width="0" layer="20" curve="90"/>
 <text x="11.684" y="1.016" size="1.016" layer="25" font="vector" ratio="10" align="bottom-center">UPDI Adapter</text>
 <text x="8.636" y="13.97" size="0.8128" layer="25" font="vector" ratio="10">cc-by-sa</text>
-<text x="19.558" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">R0.1</text>
+<text x="19.558" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">R0.2</text>
 <text x="17.018" y="10.922" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">UPDI</text>
 <text x="17.018" y="5.588" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">VDD</text>
 <text x="17.018" y="8.128" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">GND</text>

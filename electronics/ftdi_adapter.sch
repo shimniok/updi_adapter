@@ -1496,7 +1496,7 @@ LETTER landscape</description>
 <sheet>
 <plain>
 <text x="154.94" y="17.78" size="3.81" layer="94">FTDI to UPDI Adapter</text>
-<text x="231.14" y="17.78" size="3.81" layer="94">R0.1</text>
+<text x="231.14" y="17.78" size="3.81" layer="94">R0.2</text>
 </plain>
 <instances>
 <instance part="J2" gate="J1" x="152.4" y="91.44"/>
