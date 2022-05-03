@@ -151,12 +151,12 @@
 <wire x1="19.431" y1="16.256" x2="0.635" y2="16.256" width="0" layer="20"/>
 <wire x1="0.635" y1="16.256" x2="0" y2="15.621" width="0" layer="20" curve="90"/>
 <text x="11.684" y="1.016" size="1.016" layer="25" font="vector" ratio="10" align="bottom-center">UPDI Adapter</text>
-<text x="8.636" y="13.462" size="0.8128" layer="25" font="vector" ratio="10">cc-by-sa</text>
+<text x="8.636" y="13.97" size="0.8128" layer="25" font="vector" ratio="10">cc-by-sa</text>
 <text x="19.558" y="1.27" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">R0.1</text>
 <text x="17.018" y="10.922" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">UPDI</text>
 <text x="17.018" y="5.588" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">VDD</text>
 <text x="17.018" y="8.128" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">GND</text>
-<text x="8.636" y="14.478" size="0.8128" layer="25" font="vector" ratio="10">bot-thoughts.com</text>
+<text x="8.636" y="14.986" size="0.8128" layer="25" font="vector" ratio="10">bot-thoughts.com</text>
 <wire x1="4.572" y1="7.62" x2="4.572" y2="6.858" width="0.127" layer="21"/>
 <wire x1="4.572" y1="6.858" x2="4.572" y2="6.096" width="0.127" layer="21"/>
 <wire x1="4.572" y1="6.858" x2="5.08" y2="6.858" width="0.127" layer="21"/>
@@ -166,6 +166,7 @@
 <text x="10.16" y="4.064" size="0.8128" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center">5V&gt;VDD</text>
 <wire x1="16.002" y1="6.604" x2="16.002" y2="5.588" width="0.127" layer="21"/>
 <wire x1="16.002" y1="5.588" x2="16.002" y2="4.318" width="0.127" layer="21"/>
+<text x="8.636" y="12.954" size="0.8128" layer="25" font="vector" ratio="10">is.gd/8xDmzd</text>
 </plain>
 <libraries>
 <library name="ads4">
